@@ -1,0 +1,58 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Ballet",
+      "slug": "beginner-ballet",
+      "description": "Discover the grace and elegance of ballet in our Beginner Ballet class. Designed for those new to ballet, this course covers basic positions, techniques, and movements. Build strength, flexibility,",
+      "price": 99.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "Hip-Hop Groove",
+      "slug": "hip-hop-groove",
+      "description": "Get ready to move to the beat with our Hip-Hop Groove class! Perfect for all skill levels, this energetic course will teach you the latest hip-hop dance moves, ",
+      "price": 79.99,
+      "instructor": "Michael Johnson",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "Contemporary Dance Exploration",
+      "slug": "contemporary-dance-exploration",
+      "description": "Unleash your creativity in our Contemporary Dance Exploration class. Combining elements of modern, jazz, and ballet, this course encourages personal expression through fluid and dynamic movement.",
+      "price": 89.99,
+      "instructor": "Emily Davis",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "Latin Dance Fusion",
+      "slug": "latin-dance-fusion",
+      "description": "Spice up your dance repertoire with our Latin Dance Fusion class. This exciting course blends salsa, merengue, bachata, and cha-cha for a high-energy",
+      "price": 84.99,
+      "instructor": "Carlos Martinez",
+      "isFeatured": true
+    },
+    {
+      "id": 5,
+      "title": "Jazz Dance Fundamentals",
+      "slug": "jazz-dance-fundamentals",
+      "description": "Step into the world of jazz with our Jazz Dance Fundamentals class. This course covers essential jazz techniques, including kicks, leaps, and turns, set to upbeat and contemporary music. Ideal for ",
+      "price": 79.99,
+      "instructor": "Sarah Lee",
+      "isFeatured": true
+    },
+    {
+      "id": 6,
+      "title": "Ballroom Basics",
+      "slug": "ballroom-basics",
+      "description": "Step onto the dance floor with confidence in our Ballroom Basics class. Learn the foundational steps and techniques of classic ballroom dances such as the waltz, tango,",
+      "price": 89.99,
+      "instructor": "Anna Thompson",
+      "isFeatured": true
+    }
+  ]
+}
