@@ -75,6 +75,9 @@ const content = [
 export function WhyChooseUs() {
   return (
     <div className="p-10">
+      <h2 className="text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl text-center my-5">
+        Why Choose Us
+      </h2>
       <StickyScroll content={content} />
     </div>
   );
