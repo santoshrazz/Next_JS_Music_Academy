@@ -1,3 +1,4 @@
+import Footer from "@/Components/Footer/Footer";
 import Webinars from "@/Components/Future_Webinars/Webinars";
 import { HeroSection } from "@/Components/HeroSection/HeroSection";
 import { Mask_Reveal } from "@/Components/Mask_Reveal/Mask_Reveal";
@@ -15,6 +16,7 @@ export default function Home() {
       <GridBackground />
       <Webinars />
       <BackgroundBoxesDemo />
+      <Footer />
     </>
   );
 }

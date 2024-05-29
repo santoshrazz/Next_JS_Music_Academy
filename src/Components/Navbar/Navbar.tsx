@@ -7,6 +7,7 @@ import {
   ProductItem,
 } from "@/Components/ui/navbar-menu";
 import { cn } from "@/Components/utils/cn";
+import Link from "next/link";
 
 export function NavbarDemo() {
   return (
@@ -23,20 +24,28 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>
+        <Link href={"/"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Home"
+          ></MenuItem>
+        </Link>
         <MenuItem setActive={setActive} active={active} item="Courses">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
+            <HoveredLink href="/courses">All Courses</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
             <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="Contact"
-        ></MenuItem>
+        <Link href={"/contact"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Contact"
+          ></MenuItem>
+        </Link>
       </Menu>
     </div>
   );
