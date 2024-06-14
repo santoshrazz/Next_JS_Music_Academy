@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Webinars_Card } from "@/Components/Future_Webinars/Webinars_Card";
 

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { cn } from "@/Components/utils/cn";
 import { Spotlight } from "@/Components/ui/Spotlight";

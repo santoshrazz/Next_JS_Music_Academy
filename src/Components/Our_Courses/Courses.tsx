@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import courseData from "./course_data.json";
 import Link from "next/link";
