@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Moving_Card } from "./Moving_Card";
 
