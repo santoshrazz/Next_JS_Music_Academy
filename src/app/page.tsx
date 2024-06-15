@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <Mask_Reveal />
-      <Courses />
-      <WhyChooseUs />
-      <GridBackground />
-      <Webinars />
-      <BackgroundBoxesDemo />
-      <Footer />
+      {/* <Mask_Reveal /> */}
+      {/* <Courses /> */}
+      {/* <WhyChooseUs /> */}
+      {/* <GridBackground /> */}
+      {/* <Webinars /> */}
+      {/* <BackgroundBoxesDemo /> */}
+      {/* <Footer /> */}
     </>
   );
 }
